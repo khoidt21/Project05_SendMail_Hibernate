@@ -1,0 +1,27 @@
+Huong dan chay chuong trinh 
+_ Co so du lieu su dung database MySQL
+
+_ Ten co so du lieu : lms 
+_ Admin dang nhap mac dinh da co trong bang User 
+Ten : admin
+Password : admin
+
+-------------------
+
+Them email vao de xac nhan viec gui email
+
+com.hibernate.controller
+
+Class EmailUtility.js 
+
+// add user email
+final String userNameEmail = "";
+// add password email 
+final String userPassEmail = ""; 
+
+Thêm email và pass vào 2 bien o tren
+
+Ex : final String userNameEmail = "khoidt4@gmail.com"
+        final String userPassEmail = "85@2345678"
+
+Ung dung da co chuc nang nang cao

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hibernate.been.User" table="user">
+		<id name="id" type="int">
+			<column name="ID" />
+			<generator class="identity" />
+		</id>
+		<property column="USER_NAME" name="userName"
+			type="java.lang.String" />
+		<property column="PASSWORD" name="password1" type="string" />
+		<property column="EMAIL" name="email" type="string" />
+		<property column="PHONE" name="phone" type="string" />
+		<property column="CITY" name="city" type="string" />
+	</class>
+</hibernate-mapping>
+
